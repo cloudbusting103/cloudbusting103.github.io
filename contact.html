@@ -1,0 +1,82 @@
+<!doctype html>
+
+
+<html lang = "en">
+
+ <head>
+ <meta charset = "utf-8">
+<title> Contact </title>
+
+<link rel="stylesheet" type="text/css" href="responsive-layout.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+
+ </head>
+ 
+ 
+ <body>
+ <header>
+ 
+ <audio autoplay>
+<source src="sounds/spaceship.mp3" type="audio/mpeg">
+</audio>
+  
+ <h1>Welcome to the Vaping Store</h1>
+ <nav id ="navcontainer">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="hardware.html">Hardware</a></li>
+<li><a href="#">Liquids</a></li>
+<li><a href="#">Coils</a></li>
+<li><a href="#">Accessories</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+
+</header>
+
+<!--<audio src="sounds/spaceship.mp3" autoplay></audio>-->
+
+
+
+<div class="contact-container">
+ <div style="text-align:center">
+ <h2>Contact Us</h2>
+ <p>Swing by for a cup of coffee, or leave us a message:</p>
+ </div>
+ <div class="row">
+ <div class="column column50"> <!--1st column -->
+ <!--<img src="saintives.png" style="width:100%"-->
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2375.912661917537!2d-6.161713948561202!3d53.452147479903154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671a63dc4541a3%3A0x4305cc474e33c272!2sSt.%20Ive&#39;s!5e0!3m2!1sen!2sie!4v1606839809993!5m2!1sen!2sie" 
+ style="border:0; width:100%; height:50vh" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+ <!--replace this area later with map code -->
+ </div>
+ <div class="column column50"> <!--2nd column -->
+ <form action="">
+ <label for="fname">First Name <span class = "redasterisk"> * </span> </label>
+ <input type="text" id="fname" name="firstname" placeholder="Your name..">
+ <label for="lname">Last Name</label>
+ <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+ <label for="country">Country</label>
+ <select id="country" name="country">
+ <option value="australia">Australia</option>
+ <option value="canada">Canada</option>
+ <option value="usa">USA</option>
+ </select>
+ <label for="subject">Subject</label>
+ <textarea id="subject" name="subject" placeholder="Write
+something.." style="height:170px"></textarea>
+ <input type="submit" value="Submit">
+ </form>
+ </div>
+ </div>
+</div>
+
+
+<footer>
+ <p>Footer</p>
+</footer>
+
+ </body>
+ 
+ 
+ 
+</html>
